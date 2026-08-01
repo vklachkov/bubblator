@@ -1,0 +1,56 @@
+# Documentation files are intentionally kept out of the repository because they are very large.
+# They are available online.
+docs/
+
+# KiCad local settings, caches, backups, and temporary files.
+hardware/*.kicad_prl
+hardware/*.kicad_prl-bak
+hardware/*.kicad_pcb-bak
+hardware/*.kicad_sch-bak
+hardware/*.kicad_pro-bak
+hardware/*-backups/
+hardware/*-rescue/
+hardware/*~
+hardware/*.bak
+hardware/*.tmp
+hardware/*.lck
+hardware/fp-info-cache
+hardware/*.cache
+hardware/*.net
+
+# KiCad-generated manufacturing, assembly, and documentation outputs.
+hardware/**/*.gbr
+hardware/**/*.ger
+hardware/**/*.gko
+hardware/**/*.gm1
+hardware/**/*.gm2
+hardware/**/*.gbl
+hardware/**/*.gbs
+hardware/**/*.gbp
+hardware/**/*.gbo
+hardware/**/*.gts
+hardware/**/*.gtp
+hardware/**/*.gto
+hardware/**/*.gts
+hardware/**/*.gtl
+hardware/**/*.gml
+hardware/**/*.gpt
+hardware/**/*.gbrjob
+hardware/**/*.drl
+hardware/**/*.xln
+hardware/**/*.pos
+hardware/**/*.csv
+hardware/**/*.bom
+hardware/**/*bom*.csv
+hardware/**/*BOM*.csv
+hardware/**/*ibom*.html
+hardware/**/*iBOM*.html
+hardware/**/*.pdf
+hardware/**/*.svg
+hardware/**/*.dxf
+hardware/**/*.step
+hardware/**/*.stp
+hardware/**/*.wrl
+
+# Local editor history.
+hardware/.history/
