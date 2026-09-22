@@ -1302,7 +1302,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 -17.78 0)
+				(at -15.24 -20.32 0)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -1482,7 +1482,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 -20.32 0)
+				(at -15.24 -17.78 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1844,7 +1844,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -13.97 180)
+				(at 15.24 -11.43 180)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -1934,7 +1934,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -11.43 180)
+				(at 15.24 -13.97 180)
 				(length 2.54)
 				(name "GND"
 					(effects
