@@ -527,7 +527,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "intel_bubble"
+    ]
   },
   "meta": {
     "filename": "bubble.kicad_pro",
@@ -642,12 +644,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -716,7 +742,7 @@
         "uuid": "0d7b7f62-88b0-4f57-8407-508021d7f5c2"
       }
     ],
-    "used_designators": "R1-27,JP1,#PWR1-77,Y1-2,20pF1,#FLG1-4,MBM1,J1-3,RN1,SW1,C1-38,L1-3,D1-3,U1-13,Q1",
+    "used_designators": "C1-39,R1-27,JP1,#PWR1-79,Y1-2,20pF1,#FLG1-4,MBM1,J1-5,SW1,RN1,Q1-3,D1-4,U1-14,L1-3",
     "variants": []
   },
   "sheets": [
